@@ -1,6 +1,6 @@
-# Data structures
+# Data structures
 
-## Block Hashes
+## Block Hashes
 
 Hash and block_hashes are blake2b 20 byte long hashes.
 
@@ -30,12 +30,12 @@ This 34 byte ascii is what is stored.
 
 TODO: drawing
 
-## Signatures, pubkeys
+## Signatures, pubkeys
 
 Signatures and pubkeys are 64 byte long binary buffers.  
 They are stored as such. 
 
-## PoS messages
+## PoS messages
 
 Messages are PoS transactions.
 
@@ -56,7 +56,7 @@ CREATE TABLE pos_messages (
 
 pos_mempool has the very same structure, with a 'block_height' field fixed to 0. 
 
-## PoS Blocks
+## PoS Blocks
 
 CREATE TABLE pos_chain (
     height          INTEGER      PRIMARY KEY,
@@ -87,7 +87,7 @@ then
     
 The signature of a block is the signature of the same raw binary buffer, signed by the forger of that block.
 
-## PoS rounds
+## PoS rounds
 
 Stores the delegates and tickets for each round
 
