@@ -1,4 +1,4 @@
-# Status of the POC Code
+# Status of the POC Code
 
 # 1 Start of Round
 
@@ -12,7 +12,7 @@ dd345678901234dd
 ee456789012345ee  
 are 5 madeup MN privkey, short and easy to recognize.
 
-## 1.1 Define Jury for a round
+## 1.1 Define Jury for a round
 
 Done
 
@@ -40,7 +40,7 @@ Sorted Tickets:
  [('cc234567890123cc', 3), ('ee456789012345ee', 5), ('bb123456789012bb', 2), ('dd345678901234dd', 4), ('aa012345678901aa', 0), ('bb123456789012bb', 1)]
 ```
 
-## 1.2 Fill round slots with Jury tickets
+## 1.2 Fill round slots with Jury tickets
 
 Done
 
@@ -51,7 +51,7 @@ Slots
 ```
 
 
-## 1.3 Fill test slots
+## 1.3 Fill test slots
 
 Done.
 
@@ -99,7 +99,7 @@ End of round...
 ```
 
 
-## 2.2 Forging
+## 2.2 Forging
 
 WIP
 
@@ -128,7 +128,7 @@ Base ok, Tornado converted.
 
 Base ok, Tornado and async/await, too.
 
-## 3.3 Base node commands
+## 3.3 Base node commands
 
 wip
 
@@ -138,7 +138,7 @@ wip
 
 Tiers for keeping enough open slots for selected peers. tbd.
 
-## 3.5 communication security
+## 3.5 communication security
 
 Various checks tbd 
 
@@ -148,11 +148,11 @@ Various checks tbd
 
 Done.
 
-## 4.2 In Memory prototype
+## 4.2 In Memory prototype
 
 Dropped. Would take longer than going straight with SQLite
 
-## 4.3 SQLite prototype
+## 4.3 SQLite prototype
 
 DB Definition ok
 TODO: Add schema
@@ -161,7 +161,7 @@ TODO: Add schema
 
 TBD
 
-## 4.5 Extended checks
+## 4.5 Extended checks
 
 TBD
 
