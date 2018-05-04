@@ -39,7 +39,7 @@ id 5
 no param
 returns a json status as string
 
-## tx
+## tx
 id 6 - ok
 TX : list of commands_pb2.Command.TX
 One or several tx from the a node client
@@ -49,7 +49,7 @@ id 7
 block : a commands_pb2.Block
 A forged block from a juror.
 
-## mempool
+## mempool
 id 8 - WIP
 TX : list of commands_pb2.Command.TX
 One or several tx from the peer mempool
@@ -61,13 +61,13 @@ Each node has a server, responding to requests, and some clients, initiating req
 Clients send commands and wait for an answer.  
 Servers wait for an event, and answer.  
 
-## Communication starter
+## Communication starter
 
 * Client sends "Hello" with its POSNET version and PoS address
 * Server may answer "ko" with a reason, or
 * Server may answer "Hello" its own POSNET version and PoS address
 
-## Keep alive
+## Keep alive
 
 * Client can send some "ping" command to keep the socket (and check it is) alive. Only needed if no command was issued for ( < timeout) time.
 
