@@ -28,7 +28,7 @@ It's converted to ascii using b58 encoding, and makes for a 34 byte len ascii st
 
 This 34 byte ascii is what is stored. 
 
-TODO: drawing
+![Address format](img/address.jpg)
 
 ## Signatures, pubkeys
 
