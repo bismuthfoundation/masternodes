@@ -1,6 +1,6 @@
 # Registration rules
 
-## Reg message
+## Reg message
 
 ### Minimal message
 
@@ -23,7 +23,7 @@ data
 ip:port:pos_address,reward=bis_addr
 
 
-## Unreg message
+## Unreg message
 
 operation
 hypernode:unregister
@@ -33,7 +33,7 @@ ip:port:pos_address
 
 (Has to be sent from the same bis_addr as the register message to be valid)
 
-## Auto unreg
+## Auto unreg
 
 Failsafe to avoid issues with lost keys and burned ips or old versions
 
@@ -80,7 +80,7 @@ weight = real_value / 10000
 
 TODO
 
-## Registration Helper
+## Registration Helper
 
 Web page to check and give registration bis url
 
