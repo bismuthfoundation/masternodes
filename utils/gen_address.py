@@ -8,7 +8,10 @@ import sys
 import os.path
 
 # custom modules
-sys.path.append('../modules')
+sys.path.append(
+    os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + '/modules'
+)
+
 # import common
 import poscrypto
 
