@@ -8,7 +8,7 @@ operation
 hypernode:register
 
 data
-ip:port:pos_address
+ip:port:pos_address,source=collateral_bis_address
 
 Sent from the dedicated collateral address (controller wallet)
 
@@ -20,7 +20,7 @@ operation
 hypernode:register
 
 data
-ip:port:pos_address,reward=bis_addr
+ip:port:pos_address,source=collateral_bis_address,reward=reward_bis_addr
 
 
 ## Unreg message
