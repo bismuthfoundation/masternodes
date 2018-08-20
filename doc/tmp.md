@@ -61,7 +61,7 @@ Running in a 'screen' command could prove useful
 
 ```
 screen -S hypernode
-python3 hn_instance -v
+python3 hn_instance.py -v
 ```
 
 `ctrl-a d` to detach, `screen -x hypernode` to reattach
