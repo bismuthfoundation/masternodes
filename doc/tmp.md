@@ -82,3 +82,12 @@ About 1h to 1h30 before activation.
 You can close the HN in between
 (attach to the screen, ctrl-c)
 
+# Notes
+
+## Bismuth node wallet
+
+Regular Bismuth node on the VPS, along with the HN:  
+No constraint on the wallet: the wallet this node uses can be anything, do *NOT* put your collateral wallet there.
+
+Your collateral wallet is only used to activate your HN, then it can be cold stored.  
+Do not upload it ever.
