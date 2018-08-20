@@ -11,11 +11,11 @@ We'll suppose it lies in you home dir, then Bismuth
 ## Getting the Archive
 
 move to your home dir  
-`cd
+```cd
 wget url_of_the_tar.gz
 tar -zxvf hypernode.tar.gz
 cd hypernode
-`
+```
 
 ## Python stuff
 
