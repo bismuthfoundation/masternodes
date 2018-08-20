@@ -10,8 +10,9 @@ We'll suppose it lies in you home dir, then Bismuth
 
 ## Getting the Archive
 
-move to your home dir  
-```cd
+move to your home dir and get the stuff  
+```
+cd
 wget url_of_the_tar.gz
 tar -zxvf hypernode.tar.gz
 cd hypernode
@@ -44,4 +45,40 @@ This will
 - display some info
 - check the ledger.db is readable
 
+Example output:
+
+```
+address : "BrSKrY3mUyf9Cd9KYZqJmTgBnuT4Pt8xfn"
+default_port : 6969
+external_ip : "1.2.3.444"
+running_instances : 0
+POW_LEDGER_DB : "../../Bismuth-master/static/ledger.db"
+```
+
+## Run the HN
+
+Running in a 'screen' command could prove useful
+
+```
+screen -S hypernode
+python3 hn_instance -v
+```
+
+`ctrl-a d` to detach, `screen -x hypernode` to reattach
+
+## Register
+
+Go to https://hypernodes.bismuth.live/?page_id=48
+
+Your hypernode account address is the address given by hn_check, so is your ip address
+
+Get the bis url
+
+paste in wallet, load, send
+
+## Wait
+
+About 1h to 1h30 before activation.
+You can close the HN in between
+(attach to the screen, ctrl-c)
 
