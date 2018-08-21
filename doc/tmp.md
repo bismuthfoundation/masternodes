@@ -8,6 +8,10 @@ I suppose you already have a regular Bismuth node installed.
 We'll suppose it lies in you home dir, then Bismuth  
 `~/Bismuth`
 
+## OS Settings
+
+Refer to https://github.com/EggPool/BismuthHowto/blob/master/Install/Linux.md#os-config
+
 ## Getting the Archive
 
 move to your home dir and get the stuff  
