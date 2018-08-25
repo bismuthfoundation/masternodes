@@ -1,6 +1,20 @@
 # Bismuth HyperNodes FAQ
+This repo is outdated and won't be updated anymore until the public release of the HyperNodes.
 
-V1.0 - draft
+See the up to date FAQ here:  
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/HyperNodes_FAQ.md
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Foreword
