@@ -27,8 +27,13 @@ We are not against shared Hypernodes but we want to keep the Hypernodes as decen
 
 
 ## ROI
-
-TO BE ANNOUNCED
+- For every block on Bismuth mainnet there will be a reward of 0.8 BIS for hypernodes
+- Since there are 1440 blocks per day, that means a total reward for hypernodes of 1,152 BIS per day
+- The hypernode rewards per week are 8,064 BIS, per month 34,560 BIS and per year 420,480 BIS.
+- Running a hypernode requires a colateral amount of minimum 10,000 BIS.
+- We assume that there will be a total colateral amount of 1,000,000 BIS (equivalent to 100 nodes with 10k colateral)
+- The return of investment (ROI) will in such a scenario be: 0.8% per week, 3.5% per month and 42.0% per year.
+- The ROI depends on the total amount of colateral. With a colateral less than 1m BIS, the ROI will be higher. With a colateral higher than 1m BIS, the ROI will be lower.
 
 ## Hosting
 
