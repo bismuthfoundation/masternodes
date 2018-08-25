@@ -1,5 +1,11 @@
 # masternodes
-Bismuth Masternodes
+Bismuth Hypernodes.  
+This repo is outdated and won't be updated anymore until the public release of the HyperNodes.
+
+
+See the up to date FAQ here:  
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/HyperNodes_FAQ.md
+
 
 ## Status
 
